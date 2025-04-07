@@ -1,0 +1,733 @@
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('/fonts/OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('/fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('/fonts/poppins-bold.woff') format('woff');
+    font-weight: 600 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppins-italic';
+    src: url('/fonts/poppins-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('/fonts/poppins-regular.woff') format('woff');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'volkhov-bold';
+    src: url('/fonts/volkhov-bold.woff') format('woff');
+    font-weight: 600 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'volkhov-italic';
+    src: url('/fonts/volkhov-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'volkhov-regular';
+    src: url('/fonts/volkhov-regular.woff') format('woff');
+    font-weight: 100 900;
+}
+
+/* font families */
+
+.poppins_regular {
+    font-family: 'poppins-regular';
+}
+
+.poppins_bold {
+    font-family: 'poppins-bold';
+}
+
+.OpenSans {
+    font-family: 'OpenSans-regular';
+}
+
+.volkhov {
+    font-family: 'volkhov-bold';
+}
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* font weights  */
+
+
+.thin {
+    font-weight: 400;
+}
+
+.medium_thin {
+    font-weight: 500;
+}
+
+.medium {
+    font-weight: 600;
+}
+
+.large {
+    font-weight: 700;
+}
+
+/* font sizes */
+
+.text-small {
+    font-size: 14px;
+}
+
+.text-medium-small {
+    font-size: 15px;
+}
+
+.text-medium {
+    font-size: 16px;
+}
+
+.text-big {
+    font-size: 17px;
+}
+
+.subheading-small {
+    font-size: 18px;
+}
+
+.subheading-medium {
+    font-size: 20px;
+}
+
+.subheading-footer {
+    font-size: 21px;
+}
+
+.heading-medium {
+    font-size: 50px;
+}
+
+.heading {
+    font-size: 84px;
+}
+
+/* font colors */
+
+.white {
+    color: #FFFFFF
+}
+
+.form-grey {
+    color: #8D8D8D
+}
+
+.form-light-grey {
+    color: #989898
+}
+
+.black {
+    color: #000000
+}
+
+.orange {
+    color: #DF6951
+}
+
+.nav-grey {
+    color: #212B32
+}
+
+.photo-legend-blue {
+    color: #1E1D4C
+}
+
+.title-blue {
+    color: #14183E
+}
+
+.title-grey {
+    color: #3E3F43
+}
+
+.grey {
+    color: #5E6282
+}
+
+.light-grey {
+    color: #BFC0CD;
+}
+
+/* fonts styles */
+
+.no_underline {
+    text-decoration: none;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+.text_align {
+    text-align: center;
+}
+/* GENERAL */
+
+html,
+body {
+    width: 100%;
+    height: auto;
+    margin: 0%;
+}
+
+section {
+    padding: 75px;
+}
+
+.display_none_pc {
+    display: none;
+}
+
+/* links */
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #212832;
+}
+
+nav ul li a:visited {
+    text-decoration: none;
+    color: #212832;
+}
+
+/* top sticky */
+
+section.top {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: space-between;
+    gap: 24px;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1000;
+    padding: 20px;
+}
+
+nav {
+    gap: 24px;
+
+}
+
+.petit_logo_maki {
+    width: 44.97px;
+    height: 46.258px;
+}
+
+.logonav {
+    display: flex;
+    gap: 24px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+/* header */
+
+header {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.hero {
+    display: flex;
+    flex-flow: column wrap;
+    background-image: url(../img/illustration_principale.jpg);
+    background-size: 110%;
+    background-position: relative bottom -150px right 0px;
+    background-repeat: no-repeat;
+}
+
+.image_principale_header {
+    width: 105%;
+    height: auto;
+    object-fit: cover;
+    object-position: top 0px left 0px;
+}
+
+.bienvenue_boite_texte {
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    width: 35%;
+}
+
+.titre_soulignage {
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.souligne_rose {
+    width: 90%;
+    position: relative;
+    bottom: 100px;
+}
+
+/* les nouveautés Jadoo */
+
+.nouveautes {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 50px;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.plats_chauds {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+section.plats_chauds figure {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: inset 1px 1px 10px #bfc0cd63; */
+}
+
+section.plats_chauds figure img {
+    border-radius: 10% 10% 0% 0%;
+}
+
+.makis {
+    display: flex
+}
+
+button.decouvrir_la_carte {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #F1A501;
+    width: 250px;
+    height: 65px;
+    border: none;
+    border-color: #F1A501;
+    border-radius: 10px;
+    box-shadow: 0 20 35 0;
+}
+
+figcaption {
+    font-family: 'poppins-regular';
+    font-weight: 500;
+    color: #5E6282;
+}
+
+/* Au restaurant ou chez vous */
+section.au_resto_ou_chez_vous {
+    padding: 0;
+    background-image: url(../img/illustration_chef.jpg) url(../img/illustration_commander.jpg)
+}
+
+.chef_et_plat {
+    background-image: url(../img/illustration_chef.jpg);
+    background-size: 130%;
+    /* background-position: bottom left; */
+    background-repeat: no-repeat;
+    background-color: #5e62822c;
+}
+
+.titre_soulignage_2 {
+    padding: 0;
+    position: relative;
+
+}
+
+.souligne_rose_2 {
+    width: 50%;
+    position: absolute;
+    top: 165px;
+}
+
+.restaurant {
+    position: relative;
+}
+
+.play_button {
+    position: absolute;
+    top: 95px;
+    left: 230px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.restaurant_video {
+    width: 500px;
+    border-radius: 15px;
+}
+
+.presentation {
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.wrappers {
+    position: relative;
+    top: -100px;
+}
+
+div.restaurant {
+    border-radius: 30px;
+    background-image: url(../img/visu_video.jpg);
+    width: 300px;
+    background-repeat: no-repeat;
+}
+
+/* COMMANDER */
+
+.commander {
+    background-image: url(../img/illustration_commander.jpg);
+    background-size: cover;
+    padding: 100px;
+}
+
+.commander_flexbox {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+}
+
+div.commander_flexbox img {
+    width: 75px;
+    height: 75px;
+}
+
+div.liste_logos_commande {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+}
+
+div.liste_logos_commande figure {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    /* margin:0px 0px 5px 0px;
+    padding:10px; */
+}
+
+.commandez-subheading {
+    font-family: 'poppins-bold';
+    font-weight: 700;
+    font-size: 16px;
+    color: #22232C;
+}
+
+
+.commandez-text {
+    font-family: 'poppins-regular';
+    font-weight: 400;
+    font-size: 16px;
+    color: #3E3F43;
+}
+
+/* prendre rendez-vous */
+section.contact {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form_text {
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+}
+
+div.conteneur_formulaire_et_image {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    border-radius: 30px;
+    box-shadow: 0 0 2em#5e62822C;
+    margin: 50px;
+    padding: 0;
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin: 20px;
+    margin-left: 50px;
+    /* padding: 25px; */
+}
+
+/* label {
+    padding: 10px;
+}*/
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 1px #cacaca;
+}
+
+input.submit {
+    background-image: url(../img/bouton_formulaire_coche.svg);
+    background-repeat: no-repeat;
+    background-position: top 16px left 18px;
+    background-color: #007AFF;
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+    padding-left: 20px;
+    margin-left: 41%;
+}
+
+input:focus {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 2px #cacaca;
+}
+
+
+.name {
+    display: flex;
+    gap: 10px;
+    margin: 30px 30px 30px 0px;
+}
+
+.image_formulaire {
+    width: 50%;
+    border-radius: 0 30px 30px 0;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #f3f3f3;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 75px 50px 20px 50px;
+}
+
+.boite_jadoo_footer {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.logos_jadoo_footer {
+    display: flex;
+}
+
+.all_liens_footer {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 120px;
+    margin-bottom: 40px;
+}
+
+.liens_site_footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.resto_footer {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+div.liens_site_footer ul {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+div.liens_site_footer a {
+    color: #5E6282;
+    text-decoration: none;
+}
+
+div.liens_site_footer a:visited {
+    color: #5E6282;
+    text-decoration: none;
+}
+
+div.liens_site_footer a:hover {
+    color: #5E6282;
+    text-decoration: none;
+}
+
+.contact_footer {
+    display: flex;
+    flex-flow: column wrap;
+    ;
+}
+
+.logo_maki_footer {
+    width: 40px;
+}
+
+.logo_jadoo_texte_footer {
+    height: 40px;
+    padding-left: 20px;
+}
+
+.footer_ubereats button {
+    border-radius: 17.5px;
+    width: 105px;
+    height: 35px;
+    padding-left: 22px;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    border: none;
+    margin: 5px;
+}
+
+.footer_ubereats button a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer_ubereats button a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.ubereats_logo {
+    background-image: url(../img/logo_google_play.svg);
+    background-position: left 10px top 10px;
+    background-repeat: no-repeat;
+    background-size: 15px;
+}
+
+.applestore_logo {
+    background-image: url(../img/logo_apple.svg);
+    background-position: left 10px top 8px;
+    background-repeat: no-repeat;
+}
+
+.tous_droits_footer {
+    margin-bottom: 20px;
+}
+
+/* marges */
+
+.margin_right {
+    margin-right: 50px;
+}
+
+.margin_left {
+    margin-left: 50px;
+}
+
+.margin_left_button_order {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.no_margins {
+    margin: 0;
+}
+
+.margin30px {
+    margin: 30px;
+}
+
+.margin.bottom30px {
+    margin-bottom: 30px;
+}
+
+.margin_top30px {
+    margin-top: 30px;
+}
+
+/* paddings */
+
+.padding_vertical {
+    padding: 10% 0;
+}
+
+.padding_left_10px {
+    padding-left: 10px;
+}
+
+.padding_left_50px {
+    padding-left: 50px;
+}
+
+/* positions, displays */
+
+.relative {
+    position: relative;
+}
+
+/* tests */
+
+.float {
+    float: right;
+}
+
+.no_padding_bottom {
+    padding-bottom: 0;
+}
+
+.line-height30px {
+    line-height: 30px;
+}

@@ -1,0 +1,43 @@
+@media screen and (max-width:375px) {
+
+    /* RESTAURANT_VIDEO_PHOTOS */
+
+
+
+
+    img.restaurant_video {
+        position: relative;
+        max-width: 130%;
+        border-radius: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    .play_button {
+        position: absolute;
+        top: 35%;
+        left: 53%;
+        background-color: white;
+        border-radius: 50%;
+    }
+
+    section.au_resto_ou_chez_vous_mobile {
+        padding: 0;
+        display: inline-flex;
+        flex-flow: column wrap;
+        gap: 0;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    img{
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .white_space_mobile {
+        font-size: 0;
+        ;
+    }
+}
